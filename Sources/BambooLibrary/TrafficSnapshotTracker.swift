@@ -67,8 +67,8 @@ public class TrafficSnapshotTracker: Codable {
 }
 
 @globalActor
-struct TrafficSnapshotActor {
-  actor ActorType { }
+public struct TrafficSnapshotActor {
+  public actor ActorType { }
 
-  static let shared: ActorType = ActorType()
+  public static let shared: ActorType = ActorType()
 }
